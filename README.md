@@ -8,7 +8,7 @@ E-COMMERCE WEBSITE
 5.RUN THE PROJECT.
 ----------------------------------------------
 #PROGRAMMING LANGUAGES USED:HTML,CSS,PHP
-#DATABASE:XAMP,MYSQL
+#DATABASE:XAMPP,MYSQL
 ----------------------------------------------
 XAMPP DONLOAD LINK-->https://www.apachefriends.org/index.html
 ----------------------------------------------
