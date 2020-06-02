@@ -1,0 +1,15 @@
+.container{
+	margin-top: 50px;
+	color:#fff;
+	font-size: 55px;
+	font-style: sans-serif;
+	font-family: cursive;
+}
+body{
+	margin:0;
+	padding: 0;
+	text-align: center;
+    background-size:cover;
+    background-position: center;
+    font-family: sans-serif; 
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Count Down</title>
+
+<meta name="viewport" content="width-device-width, intial-scale=1">
+<style>
+p{
+	text-align:center;
+	font-size:100 px;
+	margin-top:350px;
+}
+</style>
+</head>
+<body>
+<p id="launch"></p>
+<script>
+    	var countDownDate= new Date("Jan1,2020 00:00:00").getTime();
+    	var x = setInterval(function(){
+    		var now = new Date.getTime();
+    		var distance=countDownDate - now;
+
+    var days=Math.floor(distance/(1000*60*60*24));
+    var hours=Math.floor((distance%(1000*60*60*24))/(1000*60*60));
+    var minutes=Math.floor((distance%(1000*60*60))/(1000*60);
+    var seconds=Math.floor((distance%(1000*60))/1000);
+        document.getElementById("launch").innerHTML=days + "d" + hours + "h" +
+        minutes + "m" + seconds + "s";
+             if(distance<0){
+             	clearInterval(x);
+             	document.getElementById("launch").innerHTML="EXPIRED";
+
+             }
+
+    	},1000);
+</script>
+</body>
+</html>

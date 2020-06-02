@@ -1,0 +1,299 @@
+#wrapper{
+	font-family:tahoma;
+}
+.container{
+	width:95%;
+    margin:0 auto;
+} 
+#subheader{
+	width:100%;
+	height:30px;
+	background:darkblue;
+	color:#fff;
+	margin-top:-10px;
+}
+#subheader p{
+	float:left;
+	margin-top:5px;
+
+}
+#subheader a{
+	float:right;
+	line-height:30px;
+	color:#fff;
+	text-decoration:none;
+	margin-left: 30px;
+
+}
+#subheader a:hover{
+	color:lightblue;
+	transition: all .5s ease;
+}
+
+#main-header{
+	width:100%;
+	height:100px;
+	background:lightblue;
+	float:left;
+	margin-top: -15px;
+
+} 
+#logo{
+	width:400px;
+	margin-top: 20px;
+	float:left;
+}
+#ist{
+	color:black;
+	font-size: 35px;
+	font-weight: bold;
+	margin-left: 48px;
+	font-family: cursive;
+}
+#iist{
+	color:black;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: cursive;
+}
+#search{
+	width:650px;
+	float:left;
+	padding:20px;
+	margin-left: 50px:;
+}
+.search-area{
+	width:800;
+	height:40px;
+	background:#fff;
+	border:none;
+	border-radius: 10px;
+	float:left;
+	padding-left:350px;
+}
+.search-btn{
+	width: 100px;
+	height:40px;
+	border-radius:10px;
+	border:none;
+	color:#fff;
+    background: blue;
+}
+#user-menu{
+	width:300px;
+	float:right;
+	margin-top:20px;
+
+}
+#user-menu li{
+	float:left;
+	width:140px;
+	text-align: center;
+	list-style: none;
+	font-size:25px;
+	border-left:1px solid black;
+}
+#user-menu li:hover{
+	font-size:35px;
+	transition: all .5s ease;
+}
+#user-menu li a{
+	color:darkblue;
+	text-decoration:none;
+}
+#navigation{
+	width:100%;
+	height: 35px;
+	background:lightblue;
+	float:left;
+	box-shadow: 10px 14px 50px 2px lightblue;
+}
+nav{
+	width:1280px;
+	margin:0 auto;
+}
+nav a{
+	margin-left: 35px;
+	color:black;
+	text-decoration:none;
+	font-style: bold;
+
+}
+nav a:hover{
+	color:blue;
+	transition:all .7s ease;
+}
+#slider{
+	width:10%;
+	height:50%;
+	box-shadow: 100%;
+}
+#heading-block{
+	width:100%;
+	height: auto;
+	float:left;
+	color:blue;
+	font-size: 22px;
+}
+#heading-block h2{
+	line-height:25px;
+	border-left: 5px solid black;
+	padding-left: 10px;
+
+}
+.catbox{
+	width:240px;
+	height:250px;
+	float:left;
+	overflow:hidden;
+	position: relative;
+	margin-left: 20px;
+	margin-right: 25px;
+}
+.catbox span{
+	width:100%;
+	height:40px;
+	line-height: 35px;
+	background:black;
+	color:white;
+	display: block;
+	bottom: 30px;
+	position:absolute;
+	z-index: 999;
+	text-align: center;
+}
+.catbox:hover span{
+	color:#1aaa1a;
+}
+.catbox img{
+	max-width:100%;
+	transition: all .5s ease;
+}
+.catbox:hover img{
+	transform:scale(1.3,1.3);
+	transition: all .5s ease;
+}
+.prod-box{
+	width:235px;
+	height:300px;
+	overflow: hidden;
+	margin: 0px;
+	margin-right: 20px;
+	margin-bottom: 30px;
+	margin-left:28px;
+	position: relative;
+	float:left;
+}
+.prod-box>img{
+	max-width: 100%;
+}
+.prod-trans{
+	background:rgba(0,0,0,0.6);
+	width: 100%;
+	height:94%;
+	top:0;
+	left: 0;
+	bottom: 0;
+	right:0;
+	position: absolute;
+	opacity: 0;
+	transition: all .5s ease;
+}
+.prod-box:hover .prod-trans{
+	opacity:1;
+	transition:all .5s ease;
+}
+.prod-feature{
+	text-align:center;
+	margin-top: -150px;
+	transition: all .5s ease;
+}
+.prod-feature p{
+	color:orange;
+	font-family:verdana;
+
+}
+.prod-box:hover .prod-feature{
+	margin-top:120px;
+	transition: all .5s ease;
+}
+.prod-feature input{
+	width:150px;
+	height: 25px;
+	font-size:17px; 
+}
+.offer{
+	width:400px;
+	float:left;
+	margin-right:25px;
+	margin-left: 25px;
+}
+.offer img{
+	width:100%;
+
+}
+#footer{
+	width: 100%;
+	height:auto;
+	background:#f5f5f5;
+	float:left;
+}
+.footer_sub{
+	width:25%;
+	float:left;
+}
+.footer_sub_2{
+	width:20%;
+	float:left;
+}
+.footer_sub_2 ul li{
+	list-style: none;
+}
+.footer_sub_2 ul li a{
+	text-decoration: none;
+	color:#000;
+}
+.footer_sub_2 ul li a:hover{
+	color:#1aaa1a;
+	text-decoration: underline;
+
+}
+.footer_sub_3{
+	width:35%;
+	float:left;
+
+}
+.subs{
+	width:350px;
+	border:none;
+	border-radius: 14px;
+	height:25px;
+	padding:15px;
+	float:left;
+}
+.sub_btn{
+	height:50px;
+	border:none;
+	background:red;
+	border-radius: 14px;
+	color:white;
+	float:left;
+}
+.sub_btn:hover{
+	color:black;
+	transition: all .5s ease;
+
+}
+.sub_p{
+	width:300px;
+	color:#999;
+	font-style: italic;
+	font-size: 12px;
+
+}
+
+
+
+
+
+

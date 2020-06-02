@@ -1,0 +1,54 @@
+.dropdown{
+    display:100%;
+    position:absolute;
+    height: 100%;
+    margin: auto;
+    left:15%;
+    bottom:-42%;
+  }
+
+  .dropdown button{
+    border:black;
+    padding:8px 16px;
+    background-color:deepPink;
+    box-shadow: pink;
+    color:white;
+    font-size: 30px;
+    transition:.3s;
+    cursor:pointer;
+    border-spacing: 10px;
+  }
+  
+  .dropdown:hover button{
+    background-color:hotPink;
+  }
+  
+  .dropdown div{
+    background-color:#000;
+    box-shadow:0 4px 8px rgba(0,0,0,0.2);
+    z-index:1;
+    visibility:hidden;
+    position:absolute;
+    min-width:100%;
+    opacity:0;
+    transition:.5s;
+  }
+  
+  .dropdown:hover div{
+    visibility:visible;
+    opacity:1;
+  }
+  
+  .dropdown div a{
+    display:block;
+    text-decoration:solid;
+    padding:8px;
+    color:#fff;
+    transition:.5s;
+    white-space:nowrap;
+  }
+  
+  .dropdown div a:hover{
+    background-color:pink;
+    color:#000;
+  }
